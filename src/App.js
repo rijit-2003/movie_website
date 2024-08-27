@@ -11,7 +11,7 @@ import Searchres from './components/header/Searchres';
 function App() {
   return (
     <div className="App">
-        <Router>
+        <Router basename="/movie_website">
           <Header />
             <Routes>
                 <Route index element={<Home />}></Route>
